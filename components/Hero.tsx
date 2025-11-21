@@ -16,13 +16,13 @@ export default function Hero() {
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <Button
-            className="bg-teal-700 text-white px-8 py-4 rounded-xl shadow-lg transform transition-transform hover:-translate-y-1 hover:scale-105"
+            className="bg-teal-700 text-white px-8 py-4 rounded-xl shadow-lg transform transition-transform hover:-translate-y-1 hover:scale-105 cursor-pointer"
             onClick={() => window.location.href="#download"}
           >
             Download Now
           </Button>
           <Button
-            className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl shadow-lg transform transition-transform hover:-translate-y-1 hover:scale-105"
+            className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl shadow-lg transform transition-transform hover:text-white hover:-translate-y-1 hover:scale-105 cursor-pointer"
             onClick={() => window.location.href="#features"}
           >
             Learn More

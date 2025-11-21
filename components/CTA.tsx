@@ -1,6 +1,15 @@
 import { Button } from "./ui/button";
 
 export default function CTA() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/downloads/WeSpend.apk";
+    link.download = "WeSpend.apk";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="download" className="py-24 bg-gray-900 text-white text-center">
       <div className="max-w-3xl mx-auto px-6">
@@ -10,16 +19,10 @@ export default function CTA() {
         </p>
         <div className="flex justify-center gap-6 flex-wrap">
           <Button
-            className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-xl shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105"
-            onClick={() => window.location.href="/downloads/WeSpend.apk"}
+            className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-xl shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105 cursor-pointer"
+            onClick={handleDownload}
           >
-            Download for Android
-          </Button>
-          <Button
-            className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-4 rounded-xl shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105"
-            onClick={() => window.location.href="/downloads/WeSpend.ipa"}
-          >
-            Download for iOS
+            Download Now
           </Button>
         </div>
       </div>
