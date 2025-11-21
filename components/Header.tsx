@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
+import Link from "next/link";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,9 +32,9 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 md:py-6 px-4">
-        <h1 className="text-2xl font-bold tracking-tight text-teal-700 dark:text-teal-400">
+        <Link href="/" className="text-2xl font-bold tracking-tight text-teal-700 cursor-pointer">
           WeSpend
-        </h1>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 font-medium">
@@ -53,7 +54,7 @@ export default function Header() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-teal-700 dark:text-teal-400"
+          className="md:hidden text-teal-700"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle Menu"
         >
