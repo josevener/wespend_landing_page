@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
-import { image } from "framer-motion/client";
 
 export default function Screenshots() {
   const [selected, setSelected] = useState<string | null>(null);
