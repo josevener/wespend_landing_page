@@ -9,9 +9,9 @@ export default function Screenshots() {
   const [selected, setSelected] = useState<string | null>(null);
 
   const images = [
-    { name: "Dashboard Screen", src: "/images/Dashboard.png" },
-    { name: "Invite Screen", src: "/images/InviteScreen.png" },
-    { name: "New Expense Screen", src: "/images/NewExpense.png" },
+    { name: "Dashboard Screen", src: "/app_images/Dashboard.png" },
+    { name: "Invite Screen", src: "/app_images/InviteScreen.png" },
+    { name: "New Expense Screen", src: "/app_images/NewExpense.png" },
   ];
 
   return (

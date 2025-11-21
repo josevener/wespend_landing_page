@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="mt-16 md:mt-24 flex justify-center">
           <div className="relative w-64 sm:w-72 md:w-80 lg:w-96 xl:w-[28rem]">
             <Image
-              src="/images/Dashboard.png"
+              src="/app_images/Dashboard.png"
               alt="WeSpend Dashboard Screenshot"
               width={600}
               height={900}
