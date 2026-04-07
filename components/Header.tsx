@@ -41,6 +41,9 @@ export default function Header() {
           <a href="#features" className="hover:text-yellow-400 transition-colors">
             Features
           </a>
+          <Link href="/how-to" className="hover:text-yellow-400 transition-colors">
+            How To
+          </Link>
           <a href="#screenshots" className="hover:text-yellow-400 transition-colors">
             Screenshots
           </a>
@@ -72,6 +75,13 @@ export default function Header() {
           >
             Features
           </a>
+          <Link
+            href="/how-to"
+            className="block hover:text-yellow-400 transition-colors"
+            onClick={() => setMobileOpen(false)}
+          >
+            How To
+          </Link>
           <a
             href="#screenshots"
             className="block hover:text-yellow-400 transition-colors"
