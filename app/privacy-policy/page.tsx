@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | WeSpend",
-  description: "Privacy Policy for WeSpend - Your Budget Tracker.",
+  title: "Privacy Policy",
+  description: "Read the WeSpend Privacy Policy. Learn how we handle your data with our offline-first approach, ensuring your financial information stays on your device.",
 };
 
 const sections = [

@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Button } from "./ui/button";
 
@@ -43,6 +45,7 @@ export default function Hero() {
               alt="WeSpend Dashboard Screenshot"
               width={600}
               height={900}
+              priority
               className="
                 rounded-3xl shadow-2xl
                 transition-transform duration-500 ease-in-out

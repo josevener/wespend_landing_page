@@ -41,7 +41,7 @@ export default function Screenshots() {
             >
               <Image
                 src={img.src}
-                alt={`Screenshot ${i + 1}`}
+                alt={`WeSpend App Screenshot - ${img.name}`}
                 fill
                 className="cover"
               />
