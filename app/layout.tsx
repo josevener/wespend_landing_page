@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wespend.app"),
+  metadataBase: new URL("https://wespend.vercel.app"),
   title: {
     default: "WeSpend — Offline-First Budget Tracker & Expense Manager",
     template: "%s | WeSpend",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_PH",
-    url: "https://wespend.app",
+    url: "https://wespend.vercel.app",
     siteName: "WeSpend",
     title: "WeSpend — Simple, Offline-First Budget Tracking",
     description: "Manage your income, track expenses, and make smarter financial decisions—all from one secure, offline-first app.",

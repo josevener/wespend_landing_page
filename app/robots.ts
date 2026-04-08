@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://wespend.app/sitemap.xml",
+    sitemap: "https://wespend.vercel.app/sitemap.xml",
   };
 }

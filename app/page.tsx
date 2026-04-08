@@ -16,10 +16,10 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "WeSpend",
-  "url": "https://wespend.app",
+  "url": "https://wespend.vercel.app",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://wespend.app/?s={search_term_string}",
+    "target": "https://wespend.vercel.app/?s={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 };
